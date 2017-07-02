@@ -16,6 +16,13 @@ public class DroneDelivery {
         }
     }
 
+
+    /**
+     * Push back operation O(n)
+     * @param head
+     * @param val
+     * @return
+     */
     public static LinkedListNode insert_node_into_singlylinkedList(LinkedListNode head, String val){
         if(head == null){
             head = new LinkedListNode(val);
@@ -142,7 +149,7 @@ public class DroneDelivery {
         allCities = insert_node_into_singlylinkedList(allCities, "Dallas");
         allCities = insert_node_into_singlylinkedList(allCities, "Austin");
 
-        String[] citiesToSkip = {"Seattle", "Portland", "Los Angeles", "Austin", "Dallas"};
+        String[] citiesToSkip = {"Seattle", "Portland", "Los Angeles"};
 
         LinkedListNode updatedRoute = updateRoute1(allCities,citiesToSkip);
 

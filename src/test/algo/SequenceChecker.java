@@ -2,7 +2,7 @@ package test.algo;
 
 public class SequenceChecker{
 
-    private static int[] A = new int[]{23, 5, 4, 7, 2, 11};
+    private static int[] A = new int[]{23, 5, 4, 11};
     private static int T = 20;
     private static int total = 0;
     

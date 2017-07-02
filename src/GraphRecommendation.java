@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Created by Harsha on 2/10/16.
  */
-public class Recommendation {
+public class GraphRecommendation {
 
     private static Map<String, List<String>> customerCarts = new HashMap<>();
 

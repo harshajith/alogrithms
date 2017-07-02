@@ -29,7 +29,7 @@ public class Java8 {
 
         List<String> lines = Arrays.asList("SAM", "PAT", "Hala");
         List<String> result = lines.stream().filter(x -> !x.equals("Hala")).collect(Collectors.toList());
-        result.forEach(x-> System.out.println(x));
+        result.forEach(System.out::println);
         Java8 java8 = new Java8();
         java8.loopMap();
     }
