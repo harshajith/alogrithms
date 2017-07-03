@@ -2,6 +2,11 @@ package nalin.challenge;
 
 import java.util.Stack;
 
+
+/**
+ * Question: divide the String into two parts in  a way
+ * that open brackets in the left part is equal to the close brackets in the right part.
+ */
 public class OpenCloseBracket {
 
     public static int solution(String s){
