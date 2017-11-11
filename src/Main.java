@@ -4,6 +4,8 @@ public class Main {
         System.out.println("Checking rebase, commit in feature branch---");
         System.out.println("Checking rebase, commit in feature branch");
         System.out.println("Hello World! -- test");
+        System.out.println("Hello World!");
+        System.out.println("Hello World! ***************");
     }
 
 
