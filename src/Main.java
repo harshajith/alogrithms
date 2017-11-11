@@ -12,4 +12,7 @@ public class Main {
     public void setPath1(){
         System.out.println("test method");
     }
+    public void setPath3(){
+        System.out.println("test method");
+    }
 }
