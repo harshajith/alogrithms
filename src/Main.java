@@ -8,4 +8,7 @@ public class Main {
     public void setPath(){
         System.out.println("test method");
     }
+    public void setPath1(){
+        System.out.println("test method");
+    }
 }
