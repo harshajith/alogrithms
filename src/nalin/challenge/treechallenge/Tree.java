@@ -13,4 +13,8 @@ public class Tree {
         this.l = null;
         this.r = null;
     }
+
+    public void tmpMethod(){
+        System.out.println("please remove this");
+    }
 }
