@@ -15,4 +15,7 @@ public class Main {
     public void setPath3(){
         System.out.println("test method");
     }
+    public void setPath4(){
+        System.out.println("test method ------");
+    }
 }
